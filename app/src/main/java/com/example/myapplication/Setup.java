@@ -1,14 +1,10 @@
 package com.example.myapplication;
 
-import static com.example.myapplication.Tile.BUSH;
-import static com.example.myapplication.Tile.EMPTY;
-import static com.example.myapplication.Tile.GRASS;
 import static com.example.myapplication.Tile.PLAYER;
-import static com.example.myapplication.Tile.STONE;
-import static com.example.myapplication.Tile.TREE;
 
-import android.graphics.Color;
 import android.widget.ImageView;
+
+import com.example.myapplication.menus.Menu;
 
 public class Setup { //Настройка карты (класс нужен чтобы все не развалилось) + все геттеры обьектов
 
@@ -22,7 +18,7 @@ public class Setup { //Настройка карты (класс нужен чт
     Render render;
     Generator generator;
     Character character;
-    Colors colors;
+    public Colors colors;
     CameraMovementSetup cms;
 
     Menu menu;

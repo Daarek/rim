@@ -8,6 +8,8 @@ import android.content.res.Resources;
 import android.util.DisplayMetrics;
 import android.view.View;
 
+import com.example.myapplication.menus.Menu;
+
 public class Character extends View { //мэин хиро
     public int x; // x и y на локальной карте
     public int y;
@@ -24,7 +26,7 @@ public class Character extends View { //мэин хиро
     Menu menu;
     AlertDialog alert; //?
     Tile lastTile;
-    Character.Inventory inventory;
+    public Character.Inventory inventory;
 
     //------------------------------------------------------
 
